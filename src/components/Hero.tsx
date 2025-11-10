@@ -36,9 +36,12 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary to-primary/90 hover:shadow-lg transition-all duration-300 hover:scale-105"
+              asChild
             >
-              <Download className="mr-2 h-5 w-5" />
-              View CV
+              <a href="/S.Tharsiyan_Resume.pdf" download="Santhirakumar_Tharsiyan_CV.pdf">
+                <Download className="mr-2 h-5 w-5" />
+                View CV
+              </a>
             </Button>
             <Button 
               size="lg" 
